@@ -14,6 +14,7 @@ import Login from './pages/login.js';
 import Register from './pages/register.js';
 import OlvideContrasena from './pages/olvideMiContrasena.js';
 import CambioContrasena from './pages/cambioDeContrasena.js';
+import Account from './pages/account.js';
 
 
 
@@ -35,6 +36,8 @@ function App() {
         <Route path="register" element={<Register/>} />
         <Route path="olvideMiContrasena" element={<OlvideContrasena/>} />
         <Route path="cambioDeContrasena" element={<CambioContrasena/>} />
+        <Route path="account" element={<Account/>} />
+        
 
       </Routes>
     </BrowserRouter>
