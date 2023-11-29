@@ -6,7 +6,7 @@ import logo from './Montserrat-2.png';
 const FormNewPro = () => {
   
     return (
-      <div className="login-container2">
+      <div className="login-container3">
         <div className="logo2">
           <img src={logo} alt="Logo" />
         </div>
