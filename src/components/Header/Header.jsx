@@ -26,7 +26,7 @@ const Header = () => {
         <Button variant="link" onClick={handleShopShow}>
         <img src={cart} alt="shopping cart" style={{ width: '40px', marginRight: '5px' }}/>
       </Button>
-        <Link to="/admin" target="_self">
+        <Link to="/account" target="_self">
           <img className="buttons" src={account} alt="account" />
         </Link>
         <Link to="/" target="_self">
