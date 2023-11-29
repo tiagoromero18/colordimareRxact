@@ -15,6 +15,7 @@ import Register from './pages/register.js';
 import OlvideContrasena from './pages/olvideMiContrasena.js';
 import CambioContrasena from './pages/cambioDeContrasena.js';
 import Account from './pages/account.js';
+import FouroFour from './pages/fourofour.js';
 
 
 
@@ -37,7 +38,7 @@ function App() {
         <Route path="olvideMiContrasena" element={<OlvideContrasena/>} />
         <Route path="cambioDeContrasena" element={<CambioContrasena/>} />
         <Route path="account" element={<Account/>} />
-        
+        <Route path="*" element={<FouroFour/>}/>
 
       </Routes>
     </BrowserRouter>
