@@ -11,17 +11,17 @@ const FormNewPro = () => {
           <img src={logo} alt="Logo" />
         </div>
         <div className="login-form">
-          <form action="./productos">
+          <form action="./products">
             <h4>Nombre del producto</h4>
             <input type="text" id="username" name="nombre" />
             <h4>Descripción</h4>
-            <input type="text" id="username" name="mail" />
+            <input type="text" id="username" name="descripcion" />
             <h4> # de prendas disponibles</h4>
-            <input type="number" id="password" name="password" />
+            <input type="number" id="password" name="predas" />
             <h4> Precio </h4>
-            <input type="number" id="password" name="password" />
+            <input type="number" id="password" name="precio" />
             <h4> Categorias</h4>
-            <input type="text" id="password" name="password" />
+            <input type="text" id="password" name="categorias" />
             <h4> Imagen del producto </h4>
             <input type="file" id="password" name="foto"></input>
             <h4>Tallas disponibles</h4>

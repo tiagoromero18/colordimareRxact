@@ -45,6 +45,7 @@ body{
         .r{
             background-color: #584B53;
             float:right;
+            display:flex;
         }
         
         .buttons{
