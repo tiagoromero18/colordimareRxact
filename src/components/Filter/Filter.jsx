@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 import fil from './bxs-filter-alt.svg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -63,9 +64,11 @@ const Filter = () => {
             </NavDropdown>
           </Nav>
           <Form className="d-flex">
+            <Link to="/editfilter">
             <button className="btn" type="button" style={{ backgroundColor: '#FEF5EF' }}>
               Editar
             </button>
+            </Link>
           </Form>
         </Navbar.Collapse>
       </Container>
